@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Josefin Sans',sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #28292B;
+}
+
+a {
+  text-decoration: none;
+  color: #28292B;
+}
+
+li {
+  list-style: none;
+}
+
+.header_wrapper {
+  width: 100%;
+  /* background-color: rgb(195, 78, 78); */
+  padding-top: 1em;
+  position: fixed;
+  z-index: 2;
+}
+
+.inner {
+  /* background-color: #ddd; */
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site_title{
+  justify-content: flex-start;
+  padding-top: 0.6em;
+}
+
+.site_title h1{
+  font-size: 32px;
+  /* background-color: aqua; */
+}
+
+.header_right{
+  justify-content: flex-end;
+  display: flex;
+  
+}
+
+.header_nav ul {
+  /* background-color: bisque; */
+  text-align: center;
+  display: table;
+}
+
+.header_nav ul li {
+  display: table-cell;
+  text-align: center;
+}
+
+.header_nav ul li a {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 1em;
+  padding: 25% 0;
+}
+
+.header_nav ul li a:hover {
+  color: #888;
+}
+
+.header_twitter{
+  /* background-color: aqua; */
+  padding-top: 0.3em;
+}
+
+.top_wrapper {
+  position: relative;
+  width: 100%;
+  height: 70em;
+  overflow: hidden;
+  background: url("../img/3.jpeg") no-repeat center;
+  background-size: cover;
+}
+
+.section {
+  width: 80%;
+}
+
+.about_section{
+  background-color: #28292B;
+  width: 100%;
+  position: relative;
+  top: 10em;
+  padding: 15em 0 15em 0;
+}
+
+.about_left{
+  width: 40%;
+  color: #FDF6EF;
+}
+
+.about_left::after{
+  position: absolute;
+  background-color: aqua;
+  content: "";
+  background-image: url(/img/1.jpeg);
+  background-size: cover;
+  width: 34%;
+  height: 51%;
+}
+
+h2{
+  font-size: 40px;
+  letter-spacing: 14px;
+  padding-bottom: 0.8em;
+}
+
+p{
+  font-size: 20px;
+  line-height: 2em;
+  padding-bottom: 4em;
+}
+
+.about_right{
+  width: 60%;
+  color: #FDF6EF;
+  justify-content: flex-end;
+}
+
+.about_right::after {
+  left: 50%;
+  position: absolute;
+  background-color: aqua;
+  content: "";
+  background-image: url(/img/2.jpeg);
+  background-size: cover;
+  width: 50%;
+  height: 50em;
+}
+
+.menu_section{
+  background-color: #28292B;
+  width: 100%;
+  height: 1750px;
+  position: relative;
+  top: 20em;
+  margin: 15em 0;
+  color: aliceblue;
+}
+
+.menu_section::after {
+  position: absolute;
+  background-color: aqua;
+  content: "";
+  background-image: url(/img/top.png);
+  background-size: cover;
+  width: 100%;
+  height: 20%;
+  top: 72%;
+}
+
+.inner2 {
+  /* background-color: #ddd; */
+  width: 100%;
+  text-align: center;
+  padding: 10em 0;
+}
+
+.price_wrapper{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10em;
+}
+
+td{
+  font-size: 18px;
+  width: 20em;
+  vertical-align: middle;
+}
+
+tr{
+  height: 5em;
+}
+
+.start{
+  text-align: left;
+  width: 60%;
+}
+
+.end{
+  text-align: right;
+}
+
+.table_left tr {
+  border-top: solid #FDF6EF 1px;
+}
+.table_right tr{
+  border-top: solid #FDF6EF 1px;
+}
+
+.table_center{
+  width: 5em;
+}
+
+.border{
+  border-bottom: solid #FDF6EF 1px;
+}
+
+.access_section{
+  position: relative;
+  width: 100%;
+  height: 90em;
+  text-align: center;
+  background-color: #FDF6EF;
+}
+
+.access h2{
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+.contact_section{
+  position: relative;
+  width: 100%;
+  height: 60em;
+  text-align: left;
+  background-color: #FDF6EF;
+}
+
+.inner3{
+  display: flex;
+  color: #FDF6EF;
+}
+
+.contact_left{
+  position: relative;
+  background-color: #28292B;
+  padding: 7% 0 15% 7.5%;
+  float: left;
+  width: 63%;
+}
+
+.adress{
+  padding-top: 2em;
+}
+
+.adress span{
+  display: inline-block;
+  padding: 1em 0;
+}
+
+.contact_right{
+  z-index: 1;
+  position: absolute;
+  background-color: aqua;
+  background-image: url(/img/4.jpeg);
+  background-size: cover;
+  width: 60%;
+  height: 70%;
+  top: -10%;
+  right:0;
+}
+
+#footer {
+  background-color:#28292B;
+  padding: 2% 0;
+  width: 100%;
+  text-align: center;
+  color:#FDF6EF;
+}
