@@ -12,6 +12,7 @@ body {
 a {
   text-decoration: none;
   color: #28292B;
+  text-shadow : 0px 0px 5px #FDF6EF;
 }
 
 li {
